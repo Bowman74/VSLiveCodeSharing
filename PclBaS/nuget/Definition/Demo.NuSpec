@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>DemoLibrary</id>
+    <title>Demo Library</title>
+    <tags>Demo Library</tags>
+    <version>1.0.0</version>
+    <authors>Demo Library</authors>
+    <description>
+TestDemo Package
+    </description>
+    <summary>
+TestDemo Package
+    </summary>
+    <language>en-US</language>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Mono.Android.Export" targetFramework="MonoAndroid" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="..\..\TestLibrary.Pcl\bin\Debug\**\TestLibrary.dll**" target="lib\portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1" />
+    <file src="..\..\TestLibrary.Ios\bin\iPhone\Debug\**\TestLibrary.dll*" target="lib\MonoTouch" />
+    <file src="..\..\TestLibrary.Android\bin\Debug\**\TestLibrary.dll*" target="lib\MonoAndroid" />
+  </files>
+</package>
